@@ -27,7 +27,7 @@ var cnItems = {
     'Standard': '标准',
     'Default purchase amount': '默认购买数量',
     'Default purchase max limit': '默认购买最大上限',
-    '': '',
+    'Unpause': '取消暂停',
     '': '',
     '': '',
     '': '',
