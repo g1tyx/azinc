@@ -177,8 +177,8 @@ var cnExcludePostfix = [
 //原样输出的字段：(.+)
 var cnRegReplace = new Map([
     [/^requires ([\d\.]+) more research points$/, '需要$1个研究点'],
-    [/^Buy 1 auto converter for (.+) next letter$/, '为 $1 个下一个字母购买1个自动转换器'],
-    [/^Buy 1 auto converter for (.+) of next letters$/, '为 $1 个下一个字母购买1个自动转换器'],
+    [/^Buy 1 auto converter for (.+) next letter$/, '使用 $1 个下一个字母，购买1个自动转换器'],
+    [/^Buy 1 auto converter for (.+) of next letters$/, '使用 $1 个下一个字母，购买1个自动转换器'],
     [/^Buy maximum number of autoconverters that you can while keeping previous letter\'s production above (.+).$/, '购买最大数量的自动转换器，同时使上一个字母的产量保持在 $1 以上。'],
     [/^Each autoconverter will convert (.+) of the previous letter to (.+) of this letter each second$/, '每个自动转换器每秒都会将前一个字母的 $1 转换为该字母的 $2'],
     [/^Cost: (\d+) RP$/, '成本：$1 皇家点数'],
